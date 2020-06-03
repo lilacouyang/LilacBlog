@@ -92,16 +92,15 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
-  #about: /about/ || user
-  favorite: /favorite/ || heart
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  #pm: /categories/pm/ || product-hunt
-  archives: /archives/ || archive
+  home: /|| home
+  #about: /about/||user
+  favorite: /favorite/|| heart
+  tags: /tags/||tags
+  categories: /categories/|| th
+  archives: /archives/|| archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  commonweal: 404.html || heartbeat
+  commonweal: 404.html|| heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -156,7 +155,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/lilac.jpg
+# avatar: /images/lilac.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -379,16 +378,16 @@ changyan:
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
-valine:
-  enable: true
-  appid:  3mq0IwEVJXVuUieXmjx8xhFx-gzGzoHsz # your leancloud application appid
-  appkey: J1W3bQg50lfcFl90VIicUwBg # your leancloud application appkey
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
+# valine:
+#   enable: true
+#   appid:  3mq0IwEVJXVuUieXmjx8xhFx-gzGzoHsz # your leancloud application appid
+#   appkey: J1W3bQg50lfcFl90VIicUwBg # your leancloud application appkey
+#   notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+#   verify: false # Verification code
+#   placeholder: Just go go # comment box placeholder
+#   avatar: mm # gravatar style
+#   guest_info: nick,mail,link # custom comment header
+#   pageSize: 10 # pagination size
 
 
 # Support for youyan comments system.
@@ -409,7 +408,7 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
+  github_user: littleshuang # MUST HAVE, Your Github ID
   github_repo: # MUST HAVE, The repo you use to store Gitment comments
   client_id: # MUST HAVE, Github client id for the Gitment
   client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
