@@ -27,8 +27,8 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/favicon-16x16-next.ico
+  medium: /images/favicon-32x32-next.ico
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -127,9 +127,10 @@ scheme: Pisces
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+social:
+  GitHub: https://github.com/littleshuang || github
+  # E-Mail: mailto:shuang_ouyang@163.com.com || envelope
+  简书: https://www.jianshu.com/u/44ded48be318 || heartbeat
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -148,9 +149,9 @@ social_icons:
 links_icon: link
 links_title: Links
 links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+# links_layout: inline
+links:
+  我的物品原型图: http://47.101.40.53:4000/prototype/mystuff/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -162,10 +163,10 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: true
+  number: false
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: false
+  wrap: true
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -237,10 +238,10 @@ post_wordcount:
   separated_meta: true
 
 # Wechat Subscriber
-#wechat_subscriber:
-  #enabled: true
-  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
-  #description: ex. subscribe to my blog by scanning my public wechat account
+# wechat_subscriber:
+#   enabled: true
+#   qcode: /images/wechat-qcode.jpg
+#   description: 欢迎扫码订阅我的微信公众号
 
 # Reward
 reward_comment: Thanks for your reward.
