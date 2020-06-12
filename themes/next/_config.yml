@@ -94,13 +94,13 @@ index_with_subtitle: false
 menu:
   home: /|| home
   #about: /about/||user
-  favorite: /favorite/|| heart
+  # favorite: /favorite/|| heart
   tags: /tags/||tags
   categories: /categories/|| th
   archives: /archives/|| archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  commonweal: 404.html|| heartbeat
+  # commonweal: 404.html|| heartbeat
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -595,7 +595,7 @@ calendar:
 
 # Algolia Search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 10
   labels:
