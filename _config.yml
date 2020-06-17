@@ -83,6 +83,9 @@ algolia:
   apiKey: '72679fe9b7a2d99c540ae0ca71120401'
   chunkSize: 5000
 
+# minimize the size of the static resources see https://github.com/chenzhutian/hexo-all-minifier
+all_minifier: true
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
