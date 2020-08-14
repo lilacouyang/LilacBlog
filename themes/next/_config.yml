@@ -152,6 +152,7 @@ links_layout: block
 # links_layout: inline
 links:
   我的物品原型图: http://47.101.40.53:4000/prototype/mystuff/
+  i物品产品需求文档: http://47.101.40.53:4000/prototype/FindStuffsPrd/%E7%9B%AE%E5%BD%95.html
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
